@@ -121,7 +121,7 @@ class Text:
         iam2_send = ["i am not fine" , "i am very good"]
         iam2_reply = ["Oh?, What happened?" , "That's not good" , "OH!" , "Sorry to hear that but what happened?" , "What happened?"]
 
-        Nothing = ['Nothing' , "What can you do" , 'nothing at all']
+        Nothing = ['nothing' , "what can you do" , 'nothing at all']
         Nothing_reply = ['Nothing', 'nothing at all' , 'Absolutely Nothing']
 
         if query in hellohi:
