@@ -99,7 +99,7 @@ class Text:
                             results = wikipedia.summary("where is " + query , sentences=2)
                             __speaker__(results, condition)
                         except:
-                            Text(f"Sorry, Couldn't fetch any data {query} from Wikipedia").speak()
+                            Text(f"Sorry, Couldn't fetch any data about {query} from Wikipedia").speak()
 
     def Chat(self):
         query = str(self.text)
@@ -153,7 +153,7 @@ def Welcome():
     elif int(hour) >= 12 and int(hour) < 18:
             Text('Good Afternoon Sir').speak()
     elif int(hour) >= 18 and int(hour) < 25:
-        Text('Good Night Sir').speak()
+        Text('Welcome to Jarvis').speak()
 
 Welcome()
 Text("What can i do for you Sir")
